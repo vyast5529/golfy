@@ -891,6 +891,7 @@ footer a:hover i{
      position: relative;
      right: 6vw;
      font-size: 8vw;color:#91B508;
+     background-color: blue;
 
    
 
@@ -902,7 +903,7 @@ footer a:hover i{
     }
     #menu #i2
     {
-        font-size: 8vw;
+        font-size: 10vw;
         visibility: hidden;
     }
 
@@ -1084,7 +1085,7 @@ footer a:hover i{
 position: fixed;
 z-index:  99;
 right:20%;
-top: 20%;
+top: 5%;
 display: block;
 display: flex;
 
@@ -1123,8 +1124,8 @@ scale:0
 
 #page2 #aboutus #i1
 {
-    height: 28vw;
-    width: 28vw;
+    height: 60vw;
+    width: 60vw;
     border-radius: 20px;
 
     
@@ -1134,9 +1135,10 @@ scale:0
 #page2 #aboutus #i2
 {
     
-    height: 28vw;
-    width: 28vw;
+    height: 30vw;
+    width: 30vw;
     border-radius: 20px;
+    display: none;
 
 }
 #bb
@@ -1259,6 +1261,7 @@ font-size: 3.5vw;
 {
    opacity: 0;
 }
+
 #page4
 {
     height: 110vh;
@@ -1617,6 +1620,22 @@ left: 9vw;
    top: 9vw;
   
 }
+#page1 #trans p
+{
+    height: 8vw;
+    width: 50vw;
+ color: white;
+    font-family: f1;
+    font-size: 1.5vw;
+    text-align: center;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 7vw;
+    font-family: f1;
+}
 
 #qt #text
 {
@@ -1645,7 +1664,7 @@ left: 9vw;
 
 #scnd #bt1
 {
-    height: 80%;
+    height: 50%;
     width: 30vw;
     background-color:#91B508;
     border-radius: 20px;
